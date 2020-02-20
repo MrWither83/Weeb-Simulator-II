@@ -49,12 +49,6 @@ body {
     transition-duration: 0.2s;
 }
 
-
-/* .small {
-    font-size: 14px;
-    padding: 8px;
-} */
-
 .stdButton:hover {
     background-color: white;
 }
@@ -70,6 +64,20 @@ body {
 .progress {
     width: auto;
     background-color: rgb(170, 170, 170);
-    border-radius: 2px;
-    height: 20px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 3px;
+}
+
+.progress-bar {
+    border-radius: 5px;
+    height: 30px;
+}
+
+#owoProgress {
+    background-color: rgb(255, 125, 249);
+}
+
+#owoRewardProgress {
+    background-color: rgb(255, 224, 51);
 }

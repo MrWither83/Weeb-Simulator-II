@@ -1,17 +1,24 @@
 player = {
     owo: new Decimal(0),
+    lastowoCycle: Date.now(),
+    owoCycleTime: new Decimal(2000),
+    owoProgress: 0,
+
+    // Bulk owo production reward
+    rewardThreshold: new Decimal(10),
+    rewardMultiplier: new Decimal(10),
+    rewardCount: new Decimal(0),
+    rewardProgress: new Decimal(0)
 }
 
-function clickowo() {
-    player.owo = player.owo.add(1);
+function getowoGain() {
+    r = new Decimal(1);
+    return r;
 }
 
-function update() {
-
-}
-
-function display() {
-    document.getElementById("owo").innerHTML = player.owo.toString()
+function getRewardThresholdIncrease() {
+    r = new Decimal(10);
+    return r;
 }
 
 function gameLoop() {
